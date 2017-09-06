@@ -16,7 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".bottomSheet.BottomSheetActivity"></activity>
+        <activity android:name=".bottomSheet.BottomSheetActivity" />
+        <activity android:name=".drawerlayout.DrawerLayoutActivity" />
+        <activity
+            android:name=".drawerlayout.DrawerLayoutBelowToolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drawerlayout.DrawerLayoutOneActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drawerlayout.DrawerLayoutOtherActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
