@@ -1,4 +1,4 @@
-package com.fanqilong.bottomsheetdemo.fragment;
+package com.fanqilong.bottomsheetdemo.bottomSheet;
 
 import android.app.Dialog;
 import android.os.Bundle;

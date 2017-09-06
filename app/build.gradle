@@ -10,14 +10,26 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //开启Lambda 1
+        jackOptions.enabled = true
     }
+
+    //开启Lambda 2
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
+
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
