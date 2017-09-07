@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PayStatusView">
+        <!--进度颜色-->
+        <attr name="payStatusView_progress_color" format="color" />
+        <!--进度条得宽度-->
+        <attr name="payStatusView_progress_width" format="dimension" />
+        <!--进度条得内圈半径-->
+        <attr name="payStatusView_progress_radius" format="dimension" />
+        <!--成功得颜色-->
+        <attr name="payStatusView_load_success_color" format="color" />
+        <!--失败得颜色-->
+        <attr name="payStatusView_load_failure_color" format="color" />
+    </declare-styleable>
+</resources>

@@ -27,6 +27,8 @@
         <activity
             android:name=".drawerlayout.DrawerLayoutOtherActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".vectordrawable.VectorDrawableActivity" />
+        <activity android:name=".payview.PayStatusActivity"></activity>
     </application>
 
 </manifest>

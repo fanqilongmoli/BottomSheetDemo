@@ -12,6 +12,8 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         //开启Lambda 1
         //jackOptions.enabled = true
+
+        vectorDrawables.useSupportLibrary = true
     }
 
     //开启Lambda 2

@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 import com.fanqilong.bottomsheetdemo.bottomSheet.BottomSheetActivity;
 import com.fanqilong.bottomsheetdemo.drawerlayout.DrawerLayoutActivity;
+import com.fanqilong.bottomsheetdemo.payview.PayStatusActivity;
+import com.fanqilong.bottomsheetdemo.vectordrawable.VectorDrawableActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,9 +27,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
         findViewById(R.id.btn2).setOnClickListener(view -> startActivity(new Intent(this, DrawerLayoutActivity.class)));
-        findViewById(R.id.btn3).setOnClickListener(view -> {
-
-        });
+        findViewById(R.id.btn3).setOnClickListener(view -> startActivity(new Intent(this, VectorDrawableActivity.class)));
+        findViewById(R.id.btn4).setOnClickListener(view -> startActivity(new Intent(this, PayStatusActivity.class)));
 
     }
 
